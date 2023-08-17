@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("task2.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.first{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.304);
+    background-color: rgb(78, 78, 131);
+}
+
+
+#heading{
+    font-size: 30px;
+    color: rgb(227, 220, 220);
+    font-style: italic;
+}
+
+#heading1{
+    font-size: 25px;
+    color: rgb(171, 40, 40);
+    font-style: italic;
+    padding-right: 150px;
+}
+#heading2{
+    font-size: 25px;
+    color: rgb(171, 40, 40);
+    font-style: italic;
+    padding-right: 120px;
+}
+
+.inner{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+}
+
+:placeholder-shown{
+    color:rgb(100, 0, 0);
+}
+
+button{
+    background: transparent;
+    font-size: 14px;
+    border-radius: 6px;
+    color: rgb(41, 16, 16);
+    
+}
+
+button:hover{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:active{
+    background-color: rgb(41, 16, 16);
+    color: white;
+}
+hr{
+    width: 50%;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+#result{
+    color: white;
+}
